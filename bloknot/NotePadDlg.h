@@ -5,6 +5,7 @@ class NotePadDlg
 {
 public:
 	NotePadDlg(void);
+
 	static BOOL CALLBACK DlgProc(HWND hWnd, UINT mes, WPARAM wp, LPARAM lp);
 	static NotePadDlg* ptr;
 	BOOL Cls_OnInitDialog(HWND hwnd, HWND hwndFocus, LPARAM lParam);

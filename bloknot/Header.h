@@ -7,5 +7,4 @@
 #include <fstream>
 #include <ostream>
 #include "resource.h"
-
 #pragma comment(lib,"comctl32")
